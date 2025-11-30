@@ -1,0 +1,1 @@
+-I/home/jshin/csc290sub/CSC290FPCode/part1/src/common -I/usr/local/cuda/include -I"/usr/local/cuda-13.0/include"
