@@ -193,6 +193,7 @@ def train():
   print(adj1.shape)
   print(adj1_neg.shape)
   temp = ent_emb.to("cpu").clone().detach().numpy().flatten()
+  #https://numpy.org/doc/stable/reference/generated/numpy.savetxt.html
   np.savetxt('B_values.txt', temp, delimiter='\n')
   device = ent_emb.device
 
