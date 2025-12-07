@@ -3,7 +3,7 @@ The code in part 1 and 2 is based on the cuda_hgemm code for SMaT which can be f
 
 Compilation can be done from the part1 or part2 folder by running compile.sh (see the SMaT repository at https://github.com/spcl/smat on exact running details).
 
-The dgl-SpMM data was gathered from https://github.com/OnixHoque/sptransx-mlsys2025-reproduce/ and an example can be found in the example_SpTransX_data_gather folder (transh) the primary changes are that the sparse A matrix is saved as a .mtx file using scipy csr array and mmwrite and the dense B matrix is saved as a .txt file using numpy savetxt. 
+The dgl-SpMM data was gathered from https://github.com/OnixHoque/sptransx-mlsys2025-reproduce/ and an example can be found in the example_SpTransX_data_gather folder (transh) the primary changes are that the sparse A matrix is saved as a .mtx file using scipy csr array and mmwrite and the dense B matrix is saved as a .txt file using numpy savetxt. Furthermore, time data was gathered for dgl-SpMM operations.
 
 Any usage of outside guides or documentation is often times linked around where the code was added (as well as inline cited within the report itself when explaining implementation details or how tests were set up). However below are the exact guides, github repositories, and documentation references for any code written for this project (they are also cited within the written report):
 
