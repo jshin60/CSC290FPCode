@@ -215,7 +215,7 @@ def train():
   y_ = torch.sum(w_r * x_, dim=1)
   z_ = y_.view(-1, 1) * w_r
 
-#Store to file
+#Store to file (https://www.w3schools.com/python/python_file_write.asp)
   with open("teh.txt", 'a') as file:
      file.write(str(a1t) + "," + str(a1neg) + "\n")
 
