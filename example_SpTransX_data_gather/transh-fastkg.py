@@ -127,6 +127,7 @@ def generate_sparse_matrix(indices, values, size, name, engine=ENGINE):
             ).requires_grad_(False)
     elif engine == 'dgl':
         #https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.csr_array.html#scipy.sparse.csr_array
+        #https://docs.scipy.org/doc/scipy-1.16.1/reference/generated/scipy.io.mmwrite.html
         temp = scipy.sparse.csc_array((values.clone().to("cpu").numpy(), (indices[0].clone().to("cpu").numpy(), indices[1].clone().to("cpu").numpy())))
         scipy.io.mmwrite(f"A_matrix{name}.mtx", temp)
         return dglsp.spmatrix(indices, values.requires_grad_(False), size)
