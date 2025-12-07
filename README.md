@@ -7,42 +7,22 @@ The dgl-SpMM data was gathered from https://github.com/OnixHoque/sptransx-mlsys2
 
 Any usage of outside guides or documentation is oftentimes linked around where the code was added. However below are the exact guides, github repositories, and documentation references for any code written for this project:
 
-Artifact evaluation reproduction for "sparsetransx: Efficient train-
-ing of translation-based knowledge graph embeddings using sparse
-matrix operations", mlsys 2025. URL: https://github.com/
-OnixHoque/sptransx-mlsys2025-reproduce/.
+Artifact evaluation reproduction for "sparsetransx: Efficient training of translation-based knowledge graph embeddings using sparsematrix operations", mlsys 2025. URL: https://github.com/OnixHoque/sptransx-mlsys2025-reproduce/.
 
-csr_array - scipy v1.16.1 manual. URL: https://docs.scipy.
-org/doc/scipy/reference/generated/scipy.sparse.
-csr_array.html#scipy.sparse.csr_array.
+csr_array - scipy v1.16.1 manual. URL: https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.csr_array.html#scipy.sparse.csr_array.
 
-Intel® intrinsics guide. URL: https://www.intel.com/
-content/www/us/en/docs/intrinsics-guide/index.
-html#techs=AVX_ALL.
+Intel® intrinsics guide. URL: https://www.intel.com/content/www/us/en/docs/intrinsics-guide/index.html#techs=AVX_ALL.
 
-mmwrite - scipy v1.16.1 manual. URL: https://docs.scipy.
-org/doc/scipy-1.16.1/reference/generated/scipy.
-io.mmwrite.html.
+mmwrite - scipy v1.16.1 manual. URL: https://docs.scipy.org/doc/scipy-1.16.1/reference/generated/scipy.io.mmwrite.html.
 
-numpy.savetxt - numpy v2.3 manual. URL: https:
-//numpy.org/doc/stable/reference/generated/
-numpy.savetxt.html.
+numpy.savetxt - numpy v2.3 manual. URL: https://numpy.org/doc/stable/reference/generated/numpy.savetxt.html.
 
-Smat: (s)parse (ma)trix matrix (t)ensor core-accelerated library. URL:
-https://github.com/spcl/smat.
+Smat: (s)parse (ma)trix matrix (t)ensor core-accelerated library. URL:https://github.com/spcl/smat.
 
-GeeksforGeeks. C program to read content of a file, Jul
-2025. URL: https://www.geeksforgeeks.org/c/
-c-program-to-read-contents-of-whole-file/.
+GeeksforGeeks. C program to read content of a file, Jul2025. URL: https://www.geeksforgeeks.org/c/c-program-to-read-contents-of-whole-file/.
 
-GeeksforGeeks. C program to read content of a file, Jul
-2025. URL: https://www.geeksforgeeks.org/c/
-c-program-to-read-contents-of-whole-file/.
+GeeksforGeeks. C program to read content of a file, Jul2025. URL: https://www.geeksforgeeks.org/c/c-program-to-read-contents-of-whole-file/.
 
-GeeksforGeeks. Removing trailing newline char-
-acter from fgets() input, Aug 2025. URL:
-https://www.geeksforgeeks.org/dsa/
-removing-trailing-newline-character-from-fgets-input/.
+GeeksforGeeks. Removing trailing newline char-acter from fgets() input, Aug 2025. URL:https://www.geeksforgeeks.org/dsa/removing-trailing-newline-character-from-fgets-input/.
 
-W3Schools. C write to files. URL: https://www.w3schools.
-com/c/c_files_write.php.
+W3Schools. C write to files. URL: https://www.w3schools.com/c/c_files_write.php.
