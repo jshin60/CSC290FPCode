@@ -26,3 +26,5 @@ GeeksforGeeks. C program to read content of a file, Jul2025. URL: https://www.ge
 GeeksforGeeks. Removing trailing newline character from fgets() input, Aug 2025. URL:https://www.geeksforgeeks.org/dsa/removing-trailing-newline-character-from-fgets-input/.
 
 W3Schools. C write to files. URL: https://www.w3schools.com/c/c_files_write.php.
+
+W3Schools. Python file write. URL: https://www.w3schools.com/python/python_file_write.asp.
