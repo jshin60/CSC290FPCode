@@ -5,7 +5,9 @@ Compilation can be done from the part1 or part2 folder by running compile.sh (se
 
 The dgl-SpMM data was gathered from https://github.com/OnixHoque/sptransx-mlsys2025-reproduce/ and all the altered code for data gathering can be found in the altered_SpTransX_code_for_data_gathering folder. The primary changes are that the sparse A matrix is saved as a .mtx file using scipy csr array and mmwrite and the dense B matrix is saved as a .txt file using numpy savetxt. Furthermore, time data was gathered for dgl-SpMM operations.
 
-Any usage of outside guides or documentation is often times linked around where the code was added (as well as inline cited within the report itself when explaining implementation details or how tests were set up). However below are the exact guides, github repositories, and documentation references for any code written for this project (they are also cited within the written report):
+Any usage of outside guides or documentation is often times linked around where the code or guide was used (as well as inline cited within the report itself when explaining implementation details or how tests were set up). However below are the exact guides, github repositories, and documentation references for any code written for this project (they are also cited within the written report):
+
+##References
 
 Artifact evaluation reproduction for "sparsetransx: Efficient training of translation-based knowledge graph embeddings using sparsematrix operations", mlsys 2025. URL: https://github.com/OnixHoque/sptransx-mlsys2025-reproduce/.
 
