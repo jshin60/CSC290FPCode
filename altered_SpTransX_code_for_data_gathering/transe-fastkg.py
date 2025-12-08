@@ -115,6 +115,7 @@ def generate_sparse_matrix(indices, values, size, name, engine=ENGINE):
             ).requires_grad_(False)
     elif engine == 'dgl':
         #https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.csr_array.html#scipy.sparse.csr_array
+        #https://docs.scipy.org/doc/scipy-1.16.1/reference/generated/scipy.io.mmwrite.html
         temp = scipy.sparse.csr_array((values.clone().to("cpu").numpy(), (indices[0].clone().to("cpu").numpy(), indices[1].clone().to("cpu").numpy())))
         scipy.io.mmwrite(f"A_matrix{name}.mtx", temp)
         return dglsp.spmatrix(indices, values.requires_grad_(False), size)
@@ -179,6 +180,7 @@ def train():
   #print(all_emb.shape[0])
   #print(all_emb.shape[1])
   #https://www.w3schools.com/python/python_file_write.asp
+  #https://numpy.org/doc/stable/reference/generated/numpy.savetxt.html
   output = ""
   #temp = all_emb.to("cpu").clone().detach().numpy().flatten()
   #np.savetxt('B_values.txt', temp, delimiter='\n')
