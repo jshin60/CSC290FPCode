@@ -21,9 +21,9 @@ Smat: (s)parse (ma)trix matrix (t)ensor core-accelerated library. URL:https://gi
 
 GeeksforGeeks. C program to read content of a file, Jul2025. URL: https://www.geeksforgeeks.org/c/c-program-to-read-contents-of-whole-file/.
 
-GeeksforGeeks. C program to read content of a file, Jul2025. URL: https://www.geeksforgeeks.org/c/c-program-to-read-contents-of-whole-file/.
-
 GeeksforGeeks. Removing trailing newline character from fgets() input, Aug 2025. URL:https://www.geeksforgeeks.org/dsa/removing-trailing-newline-character-from-fgets-input/.
+
+W3Schools. C read files. URL: https://www.w3schools.com/c/c_files_read.php.
 
 W3Schools. C write to files. URL: https://www.w3schools.com/c/c_files_write.php.
 
