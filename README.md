@@ -7,7 +7,7 @@ The dgl-SpMM data was gathered from https://github.com/OnixHoque/sptransx-mlsys2
 
 Any usage of outside guides or documentation is often times linked around where the code or guide was used (as well as inline cited within the report itself when explaining implementation details or how tests were set up). However below are the exact guides, github repositories, and documentation references for any code written for this project (they are also cited within the written report):
 
-##References
+## References
 
 Artifact evaluation reproduction for "sparsetransx: Efficient training of translation-based knowledge graph embeddings using sparsematrix operations", mlsys 2025. URL: https://github.com/OnixHoque/sptransx-mlsys2025-reproduce/.
 
